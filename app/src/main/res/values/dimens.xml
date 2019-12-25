@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dime_headIconMinHeight">120dp</dimen>
+    <dimen name="dime_defaultEditViewHeight">20dp</dimen>
+    <dimen name="dime_defaultPadding">25dp</dimen>
+    <dimen name="dimen_defaultEditTextSize">15sp</dimen>
+    <dimen name="dimen_defaultTextSize">18sp</dimen>
+</resources>
