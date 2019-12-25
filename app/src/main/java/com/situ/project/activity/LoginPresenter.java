@@ -83,7 +83,7 @@ public class LoginPresenter extends BasePresenter<LoginContacts.ILoginView> impl
                 .map(new Function<Long, Long>() {
                     @Override
                     public Long apply(Long aLong) throws Exception {
-                        return count - aLong;
+                        return count - aLong-1;
                     }
                 })
                 .observeOn(AndroidSchedulers.mainThread())
@@ -104,7 +104,7 @@ public class LoginPresenter extends BasePresenter<LoginContacts.ILoginView> impl
                     @Override
                     public void onNext(Long aLong) {
                         if(isViewAttached()) {
-                            getView().setSendSmsCodeButtonText(aLong + "");
+                            getView().setSendSmsCodeButtonText(aLong + "s");
                         }
                     }
 
